@@ -24,7 +24,7 @@ namespace Backpack.Log4Net.SignalR
                 Username = loggingEvent.UserName
             };
 
-            hubContext.Clients.All.log(@event);
+            hubContext.Clients.All.onLogging(@event);
         }
     }
 }

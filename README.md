@@ -36,6 +36,30 @@ install-package Backpack.Log4Net.SignalR
 
 </configuration>
 ```
+
+### Step 3: Subscribe to the appropriate SignalR events
+
+```
+$(function () {
+    var log4net = $.connection.signalrAppenderHub;
+
+    log4net.client.onLogging = function (event) {
+
+        // Insert your logic here, using the event properties:
+        // ----------------------------------------------------
+        // event.Timestamp
+        // event.Domain
+        // event.Thread
+        // event.Level
+        // event.Logger
+        // event.Identity
+        // event.Username
+        // event.Message
+        // ----------------------------------------------------
+
+    };
+});
+```
   
 ## License
 
