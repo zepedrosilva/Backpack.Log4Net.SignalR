@@ -15,7 +15,6 @@ install-package Backpack.Log4Net.SignalR
 ### Step 2: Configure the signalr appender
 
 ```
-#!xml
 <?xml version="1.0"?>
 <configuration>
 
