@@ -2,7 +2,7 @@
 
 Backpack.Log4Net.SignalR is a simple log4net signalR appender.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/ithh8t2ws1bbrq7l/branch/master?svg=true)](https://ci.appveyor.com/project/JoseSilva/backpack-log4net-signalr/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/ithh8t2ws1bbrq7l/branch/master)](https://ci.appveyor.com/project/JoseSilva/backpack-log4net-signalr/branch/master)
 
 ## Usage
 
