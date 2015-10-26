@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/zepedrosilva/Backpack.Log4Net.SignalR/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/zepedrosilva/Backpack.Log4Net.SignalR</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Backpack.Log4Net.SignalR is a simple log4net signalR appender.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright @ 2015 $author$</copyright>
+    <tags>log4net signalr</tags>
+  </metadata>
+</package>
